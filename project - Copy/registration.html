@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Webinar Registration</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+
+<body>
+    <header class="header">
+        <h1 class="header__title">Webinar Registration</h1>
+        <p class="header__details">Register for the ChatGPT Webinar</p>
+    </header>
+
+    <main class="main">
+        <section class="section">
+            <h2 class="section__title">Registration Form</h2>
+            <form action="registration-processing.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="company">Company:</label>
+                <input type="text" id="company" name="company">
+
+                <label for="position">Position:</label>
+                <input type="text" id="position" name="position">
+
+                <button type="submit" class="registration__button">Submit Registration</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__contact">For inquiries, contact us at: contact@example.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,126 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header__title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header__details {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.section__title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.section__content {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.agenda {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.agenda__item {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.registration__link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.registration__link:hover {
+    background-color: #2980b9;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Different section colors */
+.section:nth-child(odd) {
+    background-color: #ff6b6b; /* Coral */
+}
+
+.section:nth-child(even) {
+    background-color: #6bb5ff; /* Sky Blue */
+}
+
+/* Styling for each individual section */
+.section:nth-child(3) {
+    background-color: #63cf63; /* Pastel Green */
+}
+
+.section:nth-child(4) {
+    background-color: #f9d56e; /* Mustard */
+}
+
+.section:nth-child(5) {
+    background-color: #ff9f6b; /* Peach */
+}
+
+/* Additional styling for the "Why Attend?" section */
+.section:nth-child(6) {
+    background-color: #ffce63; /* Gold */
+    color: #333;
+}
+
+/* Additional styling for the "Networking Opportunities" section */
+.section:nth-child(7) {
+    background-color: #dcdcdc; /* Light Gray */
+    color: #333;
+}
+
+/* Additional styling for the "Unlock Your Potential" section */
+.section:nth-child(8) {
+    background-color: #ffa07a; /* Light Salmon */
+    color: #333;
+}
